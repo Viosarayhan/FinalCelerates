@@ -1,4 +1,3 @@
-import React from 'react';
 import Navbar from '../../Components/Elements/Navbar/Navbar';
 import HeroSection from './HeroSection';
 import ClassInfo from './ClassInfo';

@@ -46,7 +46,7 @@ const AdminPage = () => {
   return (
     <div>
       <NavbarAdmin />
-      <div className="p-8">
+      <div className="p-8 min-h-full">
         <h1 className="text-2xl font-bold mb-6 text-center text-gray-800">Admin - Data Registrasi</h1>
         <div className="overflow-x-auto">
           <table className="min-w-full bg-white border border-gray-200 shadow-lg rounded-lg">
@@ -102,11 +102,13 @@ const AdminPage = () => {
   >
     <option value="JobReady CV">JobReady CV</option>
     <option value="PortoPolish">PortoPolish</option>
-    <option value="Chit-ChatView">Chit-ChatView</option>
+    <option value="Chit-ChatView">WalkView</option>
+    <option value="CareerExcellentPack">CareerExcellentPack</option>
+    <option value="CareerStarterKit">CareerStarterKit</option>
+    <option value="SuccesSprintFour">SuccesSprintFour</option>
+
   </select>
 </td>
-
-
                 </tr>
               ))}
             </tbody>

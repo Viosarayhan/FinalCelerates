@@ -2,8 +2,10 @@ import React from 'react';
 import '../css/Mentoring.css';
 import '../css/global.css';
 import '../css/styleguide.css';
+import { Link } from "react-router-dom"
 import Navbar from '../Components/Elements/Navbar/Navbar';
 import Footer from '../Components/Elements/Footer/Footer';
+import { Button } from 'react-scroll';
 
 
 const Mentoring = () => {
@@ -26,9 +28,12 @@ const Mentoring = () => {
                 kerja!</p>
             </div>
           </div>
-          <a href="payment"><button className="button">
-              <div className="label">Daftar</div>
-            </button></a>
+          <button>
+          <Link to="/payment" className="button">
+            <Button className="label">Daftar</Button>
+          </Link>
+          </button>
+
         </div>
         <div className="div-2">
           <img className="group" src="/public/assets/group 1070.png" />
@@ -40,28 +45,30 @@ const Mentoring = () => {
               <p className="p">Buat portofolio terbaikmu, agar Rekruter semakin tertarik untuk merekrut
                 kamu!</p>
             </div>
-            <a href="portopolish">
-            <button className="button">
-              <div className="label">Daftar</div>
+            <button>
+            <Link to="/portopolish" className="button">
+            <button className="label">Daftar</button>
+            </Link>
             </button>
-            </a>
+
           </div>
         </div>
         <div className="div-2">
           <img className="img" src="assets/Group 1069.png" />
           <div className="frame">
             <div className="div-wrapper">
-              <div className="text-wrapper">Chit-ChatView</div>
+              <div className="text-wrapper">WalkView</div>
             </div>
             <div className="frame-2">
               <p className="p">Latih jawabanmu dan bangun rasa percaya diri untuk tampil maksimal saat
                 wawancara!</p>
             </div>
-            <a href="chitchat">
-            <button className="button">
-              <div className="label">Daftar</div>
+            <button>
+            <Link to="/chitchat" className="button">
+          <div className="label">Daftar</div>
+          </Link>
             </button>
-            </a>
+
           </div>
         </div>
       </div>
@@ -76,11 +83,11 @@ const Mentoring = () => {
         </p>
       </div>
       <div className="button-2">
-        <a href="#section-bawah" style={{textDecoration: 'none'}}>
-          <button className="label-wrapper">
-            <div className="label-2">Mulai Sekarang!</div>
-          </button>
-        </a>
+      <Link to="/section-bawah" style={{ textDecoration: 'none' }}>
+  <button className="label-wrapper">
+    <div className="label-2">Mulai Sekarang!</div>
+  </button>
+</Link>
       </div>
     </div>
 
@@ -111,14 +118,14 @@ const Mentoring = () => {
           </button></a>
       </div>
     </div>
-    <div className="frame-8">
+    <div className="frame-8  style={{ marginTop: '-25px' }}">
       <div className="div-wrapper-2">
         <div className="text-wrapper-7">Rekomendasi Paket&nbsp;&nbsp;Spesial Buat Kamu!</div>
       </div>
       <div className="frame-9">
       <div className="div-3">
           <div className="frame-10">
-            <div className="text-wrapper-9">Carrer Excellent Pack</div>
+            <div className="text-wrapper-9">Carreer Excellent Pack</div>
           </div>
           <div className="frame-11">
             <div className="frame-12">
@@ -156,11 +163,11 @@ const Mentoring = () => {
             <div className="frame-16">
               <div className="text-wrapper-12">Rp 50.000</div>
             </div>
-            <a href="Pembayaran1.html" style={{textDecoration: 'none'}}>
-              <button className=" button-5">
-                <div className="label-5">Daftar</div>
-              </button>
-            </a>
+            <Link to="/excellent" style={{ textDecoration: 'none' }}>
+  <button className="button-5">
+    <div className="label-5">Daftar</div>
+  </button>
+</Link>
           </div>
         </div>
 
@@ -198,11 +205,11 @@ const Mentoring = () => {
             <div className="frame-16">
               <div className="text-wrapper-12">Rp 20.000</div>
             </div>
-            <a href="Pembayaran1.html" style={{textDecoration: 'none'}}>
-              <button className=" button-5">
-                <div className="label-5">Daftar</div>
-              </button>
-            </a>
+            <Link to="/starter" style={{ textDecoration: 'none' }}>
+  <button className="button-5">
+    <div className="label-5">Daftar</div>
+  </button>
+</Link>
           </div>
         </div>
         <div className="div-3">
@@ -239,11 +246,11 @@ const Mentoring = () => {
             <div className="frame-16">
               <div className="text-wrapper-12">Rp 30.000</div>
             </div>
-            <a href="Pembayaran1.html" style={{textDecoration: 'none'}}>
-              <button className=" button-5">
-                <div className="label-5">Daftar</div>
-              </button>
-            </a>
+            <Link to="/success" style={{ textDecoration: 'none' }}>
+  <button className="button-5">
+    <div className="label-5">Daftar</div>
+  </button>
+</Link>
           </div>
         </div>
       </div>

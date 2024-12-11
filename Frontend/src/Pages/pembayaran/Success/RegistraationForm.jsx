@@ -28,7 +28,7 @@ export default function RegistrationForm({ onSave }) {
     formData.append("time", selectedTime);
 
     // Tambahkan program dengan nilai "PortoPolish"
-    formData.append("program", "Chit-ChatView");
+    formData.append("program", "SuccessSprintFour");
 
     // Menambahkan file jika tersedia
     if (file) {
@@ -97,9 +97,9 @@ function FormField({ label, placeholder, value, onChange }) {
 
 function MentorSelection({ selectedMentor, setSelectedMentor }) {
   const mentors = [
-    { value: 'tiara', name: 'Tiara Dewi', role: 'WalkView Consultant', photo: '/public/assetsvivit/5d9783cb0a04030c4556d7079ddf57af.png' },
-    { value: 'siska', name: 'Siska Larasati', role: 'WalkView Consultant', photo: '/public/assetsvivit/2f1ba397127e4944daa182d5fa83e820.png' },
-    { value: 'andi', name: 'Andi Wirawan', role: 'Mentor Specialist', photo: '/public/assetsvivit/4d45e0232a205087c7b514010ab84cac.png' },
+    { value: 'tiara', name: 'Tiara Dewi', role: 'Success Sprint Four Consultant', photo: '/public/assetsvivit/5d9783cb0a04030c4556d7079ddf57af.png' },
+    { value: 'siska', name: 'Siska Larasati', role: 'Success Sprint Four Consultant', photo: '/public/assetsvivit/2f1ba397127e4944daa182d5fa83e820.png' },
+    { value: 'andi', name: 'Andi Wirawan', role: 'Mentor Specialist Success Sprint Four', photo: '/public/assetsvivit/4d45e0232a205087c7b514010ab84cac.png' },
   ];
 
   return (

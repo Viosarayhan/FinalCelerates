@@ -51,11 +51,11 @@ const Homepage = () => {
                         <img
                             src="/src/assets/Banner Homepage.jpg"
                             alt=""
-                            style={{ width: "90%", height: "auto"  }}
+                            style={{ width: "96%", height: "auto", marginLeft:"30px"  }}
                         />
                     </div>
                 </div>
-                <div className="mx-[150px] mt-[60px] items-center gap-[32px] flex justify-center">
+                <div className="mx-[150px] mt-[60px] items-center gap-[32px] flex justify-center mb-20">
                     <div className="flex items-center gap-[10px] flex-col w-auto h-fit shadow-xl rounded-md p-[20px] hover:scale-105 hover:shadow-2xl transition-all duration-300 ease-in-out">
                         <img src="/src/assets/Karier.svg" alt="" className="w-[147px] h-[147px]"/>
                         <h6 className="text-center text-black text-2xl font-semibold font-['Plus Jakarta Sans'] leading-relaxed tracking-tight">Persiapan Karier</h6>
@@ -131,7 +131,6 @@ const Homepage = () => {
                             >
                                 <img src="/src/assets/NadiaPoster.jpg" alt="" className="w-[195px]"/>
                             </motion.div>
-
                         </div>
                         <div className="flex flex-col gap-[10px] w-1/2 justify-center items-start">
                             <h1 className="text-[#fffff0] text-[32px] font-semibold font-['Plus Jakarta Sans'] leading-[38.40px]">Mentoring</h1>
@@ -139,11 +138,11 @@ const Homepage = () => {
                             <Button type="Link" to={'/mentoring'}  classname="py-1 h-fit shadow-[inset_0px_-4px_10px_rgba(0,_0,_0,_0.3)] transition  hover:shadow-[inset_0px_4px_10px_rgba(0,_0,_0,_0.3)] hover:bg-[#adffeb] w-fit  px-[18px] text-[#3725c2] text-lg bg-[#23ffca] rounded-[15px] justify-center items-center">Lihat Lainnya</Button>
                         </div>
                     </div>
-                    <div className="flex w-[1140px] gap-[20px] justify-between">
+                    <div className="flex w-[1140px] gap-[20px] justify-between mt-10">
                         <div className="flex flex-col gap-[10px] w-1/2 justify-center items-end">
                             <h1 className="text-[#fffff0] text-[32px] font-semibold font-['Plus Jakarta Sans'] leading-[38.40px]">E-Learning</h1>
                             <h6 className="text-[#fffff0] text-lg text-right font-normal font-['Plus Jakarta Sans'] leading-snug">Persiapan karier kini lebih mudah! Kelas Persiapan Kerja menyediakan materi lengkap dari cara membuat CV dan portfolio yang menarik, hingga strategi menghadapi interview. Semuanya disusun agar kamu siap bersaing di dunia kerja.</h6>
-                            <Button type="Link" to={'/mentoring'}  classname="py-1 h-fit shadow-[inset_0px_-4px_10px_rgba(0,_0,_0,_0.3)] transition  hover:shadow-[inset_0px_4px_10px_rgba(0,_0,_0,_0.3)] hover:bg-[#adffeb] w-fit  px-[18px] text-[#3725c2] text-lg bg-[#23ffca] rounded-[15px] justify-center items-center">Lihat Lainnya</Button>
+                            <Button type="Link" to={'/elearning'}  classname="py-1 h-fit shadow-[inset_0px_-4px_10px_rgba(0,_0,_0,_0.3)] transition  hover:shadow-[inset_0px_4px_10px_rgba(0,_0,_0,_0.3)] hover:bg-[#adffeb] w-fit  px-[18px] text-[#3725c2] text-lg bg-[#23ffca] rounded-[15px] justify-center items-center">Lihat Lainnya</Button>
                         </div>
                         <div className="flex w-1/2 justify-center items-center">
                         <motion.div
@@ -266,10 +265,10 @@ const Homepage = () => {
                             </motion.div>
 
                         </div>
-                        <div className="flex flex-col gap-[10px] w-1/2 justify-center items-start">
-                            <h1 className="text-[#fffff0] text-[32px] font-semibold font-['Plus Jakarta Sans'] leading-[38.40px]">Mentoring</h1>
-                            <h6 className="text-[#fffff0] text-lg font-normal font-['Plus Jakarta Sans'] leading-snug">Butuh feedback langsung untuk CV, portfolio, atau interview? Dengan Mentoring Langsung, kamu bisa belajar dan berlatih bersama mentor berpengalaman melalui sesi Zoom pribadi. Tingkatkan peluangmu diterima bekerja dengan panduan yang tepat!</h6>
-                            <Button type="Link" to={'/mentoring'}  classname="py-1 h-fit shadow-[inset_0px_-4px_10px_rgba(0,_0,_0,_0.3)] transition  hover:shadow-[inset_0px_4px_10px_rgba(0,_0,_0,_0.3)] hover:bg-[#adffeb] w-fit  px-[18px] text-[#3725c2] text-lg bg-[#23ffca] rounded-[15px] justify-center items-center">Lihat Lainnya</Button>
+                        <div className="flex flex-col gap-[10px] w-1/2 justify-center items-start mt-10">
+                            <h1 className="text-[#fffff0] text-[32px] font-semibold font-['Plus Jakarta Sans'] leading-[38.40px]">Artikel karir</h1>
+                            <h6 className="text-[#fffff0] text-lg font-normal font-['Plus Jakarta Sans'] leading-snug">Mencari pekerjaan atau memajukan karir bisa menjadi tantangan tersendiri, tetapi dengan persiapan yang tepat, kamu bisa meningkatkan peluang sukses. Dalam artikel ini, kami akan membahas berbagai tips dan strategi untuk memperkuat karirmu, mulai dari penyusunan CV yang menarik hingga mempersiapkan dirimu menghadapi wawancara kerja.</h6>
+                            <Button type="Link" to={'/artikel'}  classname="py-1 h-fit shadow-[inset_0px_-4px_10px_rgba(0,_0,_0,_0.3)] transition  hover:shadow-[inset_0px_4px_10px_rgba(0,_0,_0,_0.3)] hover:bg-[#adffeb] w-fit  px-[18px] text-[#3725c2] text-lg bg-[#23ffca] rounded-[15px] justify-center items-center">Lihat Lainnya</Button>
                         </div>
                     </div>
                 </div>

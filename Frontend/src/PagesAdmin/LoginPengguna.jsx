@@ -143,14 +143,14 @@ const LoginPengguna = () => {
                       ) : (
                         <button
                           onClick={() => handleEdit(user)}
-                          className="bg-blue-600 text-white px-4 py-2 rounded-md hover:bg-blue-700"
+                          className="bg-blue-600 text-white px-3 py-2 rounded-md hover:bg-blue-700"
                         >
                           Edit
                         </button>
                       )}
                       <button
                         onClick={() => handleDelete(user.id)}
-                        className="bg-red-600 text-white px-4 py-2 rounded-md hover:bg-red-700"
+                        className="bg-red-600 text-white px-3 py-2 rounded-md hover:bg-red-700"
                       >
                         Delete
                       </button>

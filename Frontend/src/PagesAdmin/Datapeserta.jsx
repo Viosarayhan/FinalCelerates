@@ -72,17 +72,17 @@ const DataPeserta = () => {
                 <div className="overflow-x-auto bg-white shadow-md rounded-lg">
                     <table className="table-auto w-full text-left border-collapse">
                         <thead>
-                            <tr className="bg-gray-200 text-gray-600 uppercase text-sm leading-normal">
+                            <tr className="bg-gray-200 text-gray-600 uppercase text-sm leading-normal text-center">
                                 <th className="py-3 px-6">ID Pemesanan</th>
                                 <th className="py-3 px-6">Tanggal</th>
                                 <th className="py-3 px-6">Email</th>
                                 <th className="py-3 px-6">Telepon</th>
                                 <th className="py-3 px-6">Metode Bayar</th>
                                 <th className="py-3 px-6">Status Bayar</th>
-                                <th className="py-3 px-6">Aksi</th>
+                                <th className="py-3 px-6 ">Aksi</th>
                             </tr>
                         </thead>
-                        <tbody className="text-gray-600 text-sm font-light">
+                        <tbody className="text-gray-600 text-sm font-light text-center">
                             {dataPeserta.map((peserta) => (
                                 <tr key={peserta.order_id} className="border-b border-gray-200 hover:bg-gray-100">
                                     <td className="py-3 px-6">{peserta.order_id}</td>

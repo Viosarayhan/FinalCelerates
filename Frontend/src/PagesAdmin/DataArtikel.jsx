@@ -78,6 +78,18 @@ const DataArtikel = () => {
         }
       };
 
+      const deleteArticle = async (id) => {
+        try {
+            const response = await axios.delete(`http://localhost:5000/api/articles/${id}`);
+            if (response.status === 200) {
+                setArticles(articles.filter((article) => article.id !== id));
+                alert('Article deleted successfully!');
+            }
+        } catch (error) {
+            console.error('Error deleting article:', error);
+            alert('Failed to delete article');
+        }
+    };
 
 
     return (
@@ -113,11 +125,11 @@ const DataArtikel = () => {
                                             Edit
                                         </button>
                                         <button
-                                            onClick={() => deleteArticle(article.id)}
-                                            className="bg-red-500 text-white px-3 py-1 rounded"
-                                        >
-                                            Delete
-                                        </button>
+    onClick={() => deleteArticle(article.id)}
+    className="bg-red-500 text-white px-3 py-1 rounded"
+>
+    Delete
+</button>
                                     </td>
                                 </tr>
                             ))}
@@ -132,26 +144,15 @@ const DataArtikel = () => {
         }}
         className="flex flex-col gap-4"
     >
-        {/* ID (hidden for editing) */}
-        {editingArticle && (
-            <input
-                type="text"
-                placeholder="ID"
-                value={editingArticle.id}
-                readOnly
-                className="border p-2"
-            />
-        )}
-
-        {/* Count */}
+        {/* ID */}
         <input
-            type="number"
-            placeholder="Count"
-            value={editingArticle ? editingArticle.count : newArticle.count}
+            type="text"
+            placeholder="ID"
+            value={editingArticle ? editingArticle.id : newArticle.id}
             onChange={(e) =>
                 editingArticle
-                    ? setEditingArticle({ ...editingArticle, count: e.target.value })
-                    : setNewArticle({ ...newArticle, count: e.target.value })
+                    ? setEditingArticle({ ...editingArticle, id: e.target.value })
+                    : setNewArticle({ ...newArticle, id: e.target.value })
             }
             className="border p-2"
         />
@@ -243,6 +244,7 @@ const DataArtikel = () => {
         </button>
     </form>
 </div>
+
 
 
                 </div>

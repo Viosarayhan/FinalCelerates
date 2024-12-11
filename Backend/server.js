@@ -40,11 +40,13 @@ app.use((req, res, next) => {
 const authRoutes = require('./routes/auth');
 const articleRoutes = require('./routes/article'); // Import routes artikel
 const paymentRouter = require('./routes/paymentController'); // Ensure the path is correct
+const mentorRoutes = require('./routes/mentorRoutes'); // Import mentor routes
 
 // Gunakan rute
 app.use('/auth', authRoutes);
 app.use('/api/articles', articleRoutes); // Gunakan rute artikel
 app.use('/api', paymentRouter); // Correct usage
+app.use('/mentors', mentorRoutes); // Gunakan route di path /mentors
 
 // Jalankan server
 const PORT = process.env.PORT || 5000;

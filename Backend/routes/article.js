@@ -17,7 +17,7 @@ router.get('/', (req, res) => {
 
 // Endpoint to add a new article
 router.post('/', (req, res) => {
-  const { judul, description, isi, category, img, slug, count } = req.body;
+  const { judul, description, isi, category, img, slug, count, id } = req.body;
 
   // Ensure count and slug are passed or use default values
   const articleCount = count || 1;
@@ -56,6 +56,26 @@ router.put('/:id', (req, res) => {
       res.status(500).json({ message: 'Error updating article' });
     } else {
       res.status(200).json({ message: 'Article updated successfully' });
+    }
+  });
+});
+
+// Endpoint to delete an article
+router.delete('/:id', (req, res) => {
+  const { id } = req.params;
+
+  const query = 'DELETE FROM articles WHERE id = ?';
+
+  db.query(query, [id], (err, result) => {
+    if (err) {
+      console.error(err);
+      res.status(500).json({ message: 'Error deleting article' });
+    } else {
+      if (result.affectedRows > 0) {
+        res.status(200).json({ message: 'Article deleted successfully' });
+      } else {
+        res.status(404).json({ message: 'Article not found' });
+      }
     }
   });
 });

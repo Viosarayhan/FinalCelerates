@@ -12,6 +12,9 @@ import PaymentPreview from "./Pages/pembayaran/PaymentPreview";
 import PaymentPage from "./Pages/pembayaran/PaymentPage";
 import PaymentPortopolish from "./Pages/pembayaran/Portopolish/Payment_Portopolish";
 import PaymentChitchatView from "./Pages/pembayaran/Chit-ChatView/Payment_Chitchat";
+import PaymentExcellent from "./Pages/pembayaran/Excellent/PaymentExcellent";
+import PaymentStarter from "./Pages/pembayaran/Starter/PaymentStarter";
+import PaymentSuccess from "./Pages/pembayaran/Success/PaymentSuccess";
 import VideoLearningPlatform from "./Pages/video/VideoLearningPlatform";
 import CourseReviewPage from "./Pages/review-cv/CourseReviewPage";
 import Artikel from "./Pages/Artikel/Artikel";
@@ -58,6 +61,9 @@ function App() {
           <Route path="/payment" element={<PaymentPage registrationData={registrationData} />} />
           <Route path="/portopolish" element={<PaymentPortopolish registrationData={registrationData} />} />
           <Route path="/chitchat" element={<PaymentChitchatView registrationData={registrationData} />} />
+          <Route path="/excellent" element={<PaymentExcellent registrationData={registrationData} />} />
+          <Route path="/starter" element={<PaymentStarter registrationData={registrationData} />} />
+          <Route path="/success" element={<PaymentSuccess registrationData={registrationData} />} />
           <Route path="/video" element={<VideoLearningPlatform />} />
           <Route path="/coursereview" element={<CourseReviewPage />} />
           <Route path="/admin" element={<Dashboard />} />
