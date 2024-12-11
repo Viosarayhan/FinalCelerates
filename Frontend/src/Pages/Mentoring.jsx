@@ -29,9 +29,9 @@ const Mentoring = () => {
             </div>
           </div>
           <button>
-          <Link to="/payment" className="button">
-            <Button className="label">Daftar</Button>
-          </Link>
+            <Link to="/payment" className="button">
+            <button className="label">Daftar</button>
+            </Link>
           </button>
 
         </div>
