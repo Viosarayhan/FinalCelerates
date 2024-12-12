@@ -1,7 +1,7 @@
 import React from 'react';
-import '../css/Mentoring.css';
-import '../css/global.css';
-import '../css/styleguide.css';
+import '../../src/CSS/Mentoring.css';
+import '../../src/CSS/global.css';
+import '../../src/CSS/styleguide.css';
 import { Link } from "react-router-dom"
 import Navbar from '../Components/Elements/Navbar/Navbar';
 import Footer from '../Components/Elements/Footer/Footer';
