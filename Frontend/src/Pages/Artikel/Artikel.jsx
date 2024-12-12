@@ -10,20 +10,20 @@ const Artikel = () =>{
     const [filterValue, setFilterValue] = useState('all');
     const [searchQuery, setSearchQuery] = useState('');
     const [searchValue, setSearchValue] = useState('');
-    
+
     useEffect(() => {
         let allArtikels = getAllArtikel()
         allArtikels = allArtikels.length > 0 ? allArtikels : []
         setArtikels(allArtikels)
       }, [])
 
-      const filteredArtikels = artikels.filter((artikel) => 
-        (filterValue === 'all' || artikel?.Categori?.toLowerCase().includes(filterValue.toLowerCase())) && 
-        artikel?.Judul?.toLowerCase().includes(searchQuery.toLowerCase()) 
+      const filteredArtikels = artikels.filter((artikel) =>
+        (filterValue === 'all' || artikel?.Categori?.toLowerCase().includes(filterValue.toLowerCase())) &&
+        artikel?.Judul?.toLowerCase().includes(searchQuery.toLowerCase())
       );
 
 
-  
+
 
 
 
@@ -33,7 +33,7 @@ const Artikel = () =>{
       };
 
     const RadioButtonOpts = [
-    
+
         {
           label: 'All',
           value: 'all'
@@ -76,9 +76,9 @@ const Artikel = () =>{
                       id="search-bar"
                       value={searchValue}
                       onChange={handleInputChange}
-                      placeholder='Hinted search text...'  
+                      placeholder='Cari Artikel...'
                       className="text-[#49454f] text-sm font-bold font-['Plus Jakarta Sans'] border-black px-[20px] leading-[19px] tracking-tight h-[30px] w-full bg-[#f9f9f9]"/>
-                      
+
               </div>
               <div className="justify-end items-center rounded-tr-full pr-[10px] rounded-br-full p-2 bg-[#f9f9f9] flex">
                   <img src="/src/assets/search.svg" className="w-8 h-8  flex-col bg-[#f9f9f9] justify-center items-center gap-2.5 inline-flex"/>
@@ -121,7 +121,7 @@ const Artikel = () =>{
                 </div>
                 <Footer />
     </div>
-    
+
     )
 }
 export default Artikel

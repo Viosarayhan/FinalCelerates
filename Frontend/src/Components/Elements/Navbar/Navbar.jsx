@@ -32,7 +32,7 @@ export default function Navbar({ onSearch }) {
             <li className='text-[#fffff0] text-base font-semibold font-sans leading-[19px] hover:text-[#fb6816] transition border-b-2 border-[#4c37ee] hover:border-[#fb6816] cursor-pointer '>E-Learning</li>
           </Link>
           <Link to='/artikel' className='justify-center items-center gap-2.5 flex'>
-            <li className='text-[#fffff0] text-base font-semibold font-sans leading-[19px] hover:text-[#fb6816] transition border-b-2 border-[#4c37ee] hover:border-[#fb6816] cursor-pointer '>Artikel Karir</li>
+            <li className='text-[#fffff0] text-base font-semibold font-sans leading-[19px] hover:text-[#fb6816] transition border-b-2 border-[#4c37ee] hover:border-[#fb6816] cursor-pointer '>Artikel Karier</li>
           </Link>
         </ul>
         {/* <ul className='flex justify-center items-center'>

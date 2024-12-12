@@ -82,14 +82,14 @@ Keterampilan yang dibutuhkan untuk menjadi Digital Marketing Specialist termasuk
       slug: 'Mengenal_Profesi_UI_UX_Designer_Tugas_Skill_dan_karir',
       Judul: "Mengenal Profesi UI/UX Designer: Tugas, Skill, dan Karir",
       Categori: `Designer`,
-      Img: '/src/assets/Artikel 1.png',
+      Img: '/src/assets/articledesigner.jpg',
       description: `Di era digital saat ini, tampilan dan pengalaman pengguna menjadi salah satu faktor utama kesuksesan sebuah produk digital, baik itu aplikasi, website, maupun software lainnya.`,
       isi:
       `UI/UX Designer adalah profesional yang bertanggung jawab untuk merancang antarmuka (User Interface/UI) yang menarik secara visual dan memberikan pengalaman pengguna (User Experience/UX) yang mudah, intuitif, dan menyenangkan. Peran ini menggabungkan dua aspek penting: UI, yang berfokus pada tampilan visual seperti tata letak, warna, dan ikon, serta UX, yang memastikan navigasi dan interaksi pengguna terasa alami dan memuaskan.
 
       Tugas UI/UX Designer cukup beragam, mulai dari riset pengguna, di mana mereka memahami kebutuhan dan preferensi pengguna, hingga pembuatan wireframe dan prototipe yang menjadi rancangan awal produk digital. Mereka juga melakukan uji coba pengguna untuk memastikan desain yang dibuat sesuai harapan pengguna dan bekerja sama dengan tim lain, seperti pengembang dan manajer produk, agar desain dapat diimplementasikan dengan baik.
 
-      Menjadi UI/UX Designer membutuhkan perpaduan antara keterampilan desain visual dan pemahaman analitik. Keterampilan utama meliputi penguasaan alat desain seperti Figma atau Adobe XD, pemahaman prinsip desain grafis, serta kemampuan berpikir kritis dan empati untuk memahami perspektif pengguna. Pemahaman dasar coding juga dapat menjadi nilai tambah dalam komunikasi dengan tim pengembang.
+            Menjadi UI/UX Designer membutuhkan perpaduan antara keterampilan desain visual dan pemahaman analitik. Keterampilan utama meliputi penguasaan alat desain seperti Figma atau Adobe XD, pemahaman prinsip desain grafis, serta kemampuan berpikir kritis dan empati untuk memahami perspektif pengguna. Pemahaman dasar coding juga dapat menjadi nilai tambah dalam komunikasi dengan tim pengembang.
 
       Profesi UI/UX Designer memiliki prospek karir yang cerah, dengan banyak posisi di industri teknologi dan digital yang menawarkan gaji kompetitif dan peluang pengembangan karir. Posisi entry-level biasanya dimulai dari Junior UI/UX Designer, yang kemudian dapat berkembang menjadi Senior Designer, Product Designer, hingga peran manajerial seperti UI/UX Manager atau Head of Design. Profesi ini juga membuka peluang untuk bekerja secara freelance atau membangun karir sebagai konsultan desain digital.
 
@@ -101,7 +101,7 @@ Keterampilan yang dibutuhkan untuk menjadi Digital Marketing Specialist termasuk
       slug: 'The_Future_of_Quantum_Computing_How_It_Will_Change_The_World',
       Judul: "The Future of Quantum Computing: How It Will Change The World",
       Categori: `Science`,
-      Img: '/src/assets/Artikel 2.png',
+      Img: '/src/assets/articlescience.jpg',
       description: `Quantum computing is an emerging field with the potential to revolutionize industries like healthcare, finance, and technology.`,
       isi: `Quantum computing is a rapidly evolving field that harnesses the principles of quantum mechanics to process information in ways that classical computers cannot. Unlike traditional binary computing, which uses bits to represent either a 0 or a 1, quantum computers use quantum bits, or qubits, that can exist in multiple states at once, thanks to a phenomenon called superposition.
 

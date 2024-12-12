@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Navbar from '../../../Components/Elements/Navbar/Navbar';
 import CourseDetails from '../Success/DetailSuccess';
 import RegistrationForm from './RegistraationForm';
-import PaymentPreview from '../PaymentPreview';
+import PaymentPreview from './PaymentPreview';
 import Footer from '../../review-cv/Footer';
 import QrisPopup from '../QrisPopup';
 
