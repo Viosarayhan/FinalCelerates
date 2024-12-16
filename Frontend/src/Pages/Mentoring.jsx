@@ -36,7 +36,7 @@ const Mentoring = () => {
 
         </div>
         <div className="div-2">
-          <img className="group" src="/public/assets/group 1070.png" />
+          <img className="group" src="public/assets/group 1070.png" />
           <div className="frame">
             <div className="div-wrapper">
               <div className="text-wrapper">PortoPolish</div>
