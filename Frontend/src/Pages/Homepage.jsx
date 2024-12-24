@@ -57,12 +57,12 @@ const Homepage = () => {
                 </div>
                 <div className="mx-[150px] mt-[60px] items-center gap-[32px] flex justify-center mb-20">
                     <div className="flex items-center gap-[10px] flex-col w-auto h-fit shadow-xl rounded-md p-[20px] hover:scale-105 hover:shadow-2xl transition-all duration-300 ease-in-out">
-                        <img src="/public/assets/Karier.svg" alt="" className="w-[147px] h-[147px]"/>
+                        <img src="public/assets/Karier.svg" alt="" className="w-[147px] h-[147px]"/>
                         <h6 className="text-center text-black text-2xl font-semibold font-['Plus Jakarta Sans'] leading-relaxed tracking-tight">Persiapan Karier</h6>
                         <h6 className="text-center line-clamp-4 text-black text-base font-normal font-['Plus Jakarta Sans'] leading-snug">Dapatkan panduan lengkap untuk fresh graduate, mulai dari review CV, peningkatan portfolio, hingga latihan interview.</h6>
                     </div>
                     <div className="flex items-center gap-[10px] flex-col w-auto h-fit shadow-xl rounded-md p-[20px] hover:scale-105 hover:shadow-2xl transition-all duration-300 ease-in-out">
-                        <img src="/public/assets/Interview.svg" alt="" className="w-[147px] h-[147px]"/>
+                        <img src="assets/Interview.svg" alt="" className="w-[147px] h-[147px]"/>
                         <h6 className="text-center text-black text-2xl font-semibold font-['Plus Jakarta Sans'] leading-relaxed tracking-tight">Latihan Interview</h6>
                         <h6 className="text-center line-clamp-4 text-black text-base font-normal font-['Plus Jakarta Sans'] leading-snug">Latihan interview yang dirancang untuk mempersiapkan kamu menghadapi pertanyaan sulit dan tampil percaya diri.</h6>
                     </div><div className="flex items-center gap-[10px] flex-col w-auto h-fit shadow-xl rounded-md p-[20px] hover:scale-105 hover:shadow-2xl transition-all duration-300 ease-in-out">
