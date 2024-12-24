@@ -49,7 +49,7 @@ const Homepage = () => {
                     </div>
                     <div className="w-1/2 ml-20">
                         <img
-                            src="/public/assets/Banner Homepage.jpg"
+                            src="/assets/Banner Homepage.jpg"
                             alt=""
                             style={{ width: "96%", height: "auto", marginLeft:"30px"  }}
                         />
