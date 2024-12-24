@@ -20,7 +20,7 @@ export default function Navbar({ onSearch }) {
     <nav className=' fixed top-0 left-0 z-50 w-full h-16px px-[150px] py-2.5 bg-[#4c37ee] shadow justify-between items-center inline-flex'>
         <ul>
           <li className='flex items-center justify-center'>
-            <Link to='/admin' ><img src="/src/assets/Logo Navbar 1.png" alt="logo navbar" className=' h-[44px]'/></Link>
+            <Link to='/admin' ><img src="/public/assets/Logo Navbar 1.png" alt="logo navbar" className=' h-[44px]'/></Link>
           </li>
         </ul>
         <ul className='h-[19px] justify-start items-center gap-5 inline-flex'>

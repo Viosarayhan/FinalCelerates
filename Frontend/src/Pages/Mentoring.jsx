@@ -18,7 +18,7 @@ const Mentoring = () => {
       <div className="bg-ractangel" />
       <div className="card-course">
         <div className="div-2">
-          <img className="group" src="/public/assets/group 1059.png" />
+          <img className="group" src="/public/assets/group 959.png" />
           <div className="frame">
             <div className="div-wrapper">
               <div className="text-wrapper">JobReady CV</div>
@@ -36,7 +36,7 @@ const Mentoring = () => {
 
         </div>
         <div className="div-2">
-          <img className="group" src="public/assets/group 1070.png" />
+          <img className="group" src="/public/assets/group 1070.png" />
           <div className="frame">
             <div className="div-wrapper">
               <div className="text-wrapper">PortoPolish</div>

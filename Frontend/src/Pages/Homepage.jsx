@@ -29,19 +29,19 @@ const Homepage = () => {
                         </Link>
                         <div className="flex gap-[8px]">
                             <div className="flex ">
-                                <img src="/src/assets/user1.png" alt="" className="w-[41px] h-[41px] rounded-full z-1 border-2 boredr-[#fffff0]"/>
-                                <img src="/src/assets/user2.png" alt="" className="w-[41px] h-[41px] -ml-[12px] rounded-full z-2 border-2 boredr-[#fffff0]"/>
-                                <img src="/src/assets/user3.png" alt="" className="w-[41px] h-[41px] -ml-[12px] rounded-full z-3 border-2 boredr-[#fffff0]"/>
-                                <img src="/src/assets/user4.png" alt="" className="w-[41px] h-[41px] -ml-[12px] rounded-full z-4 border-2 boredr-[#fffff0]"/>
+                                <img src="/public/assets/user1.png" alt="" className="w-[41px] h-[41px] rounded-full z-1 border-2 boredr-[#fffff0]"/>
+                                <img src="/public/assets/user2.png" alt="" className="w-[41px] h-[41px] -ml-[12px] rounded-full z-2 border-2 boredr-[#fffff0]"/>
+                                <img src="/public/assets/user3.png" alt="" className="w-[41px] h-[41px] -ml-[12px] rounded-full z-3 border-2 boredr-[#fffff0]"/>
+                                <img src="/public/assets/user4.png" alt="" className="w-[41px] h-[41px] -ml-[12px] rounded-full z-4 border-2 boredr-[#fffff0]"/>
                             </div>
                             <div className="flex flex-col">
                                 <h6 className="text-black text-base font-bold font-['Plus Jakarta Sans'] leading-[19px]">Dipercaya oleh 100k orang</h6>
                                 <div className="flex items-end">
-                                    <img src="/src/assets/Star.svg" alt="" className="w-6 h-6 "/>
-                                    <img src="/src/assets/Star.svg" alt="" className="w-6 h-6 -ml-[5px]"/>
-                                    <img src="/src/assets/Star.svg" alt="" className="w-6 h-6 -ml-[5px]"/>
-                                    <img src="/src/assets/Star.svg" alt="" className="w-6 h-6 -ml-[5px]"/>
-                                    <img src="/src/assets/star_half.svg" alt="" className="w-6 h-6 -ml-[5px]"/>
+                                    <img src="/public/assets/Star.svg" alt="" className="w-6 h-6 "/>
+                                    <img src="/public/assets/Star.svg" alt="" className="w-6 h-6 -ml-[5px]"/>
+                                    <img src="/public/assets/Star.svg" alt="" className="w-6 h-6 -ml-[5px]"/>
+                                    <img src="/public/assets/Star.svg" alt="" className="w-6 h-6 -ml-[5px]"/>
+                                    <img src="/public/assets/star_half.svg" alt="" className="w-6 h-6 -ml-[5px]"/>
                                     <h6 className="text-black text-base font-bold font-['Plus Jakarta Sans'] leading-[19px]">4.5/5 (50k  Ulasan)</h6>
                                 </div>
                             </div>
@@ -49,7 +49,7 @@ const Homepage = () => {
                     </div>
                     <div className="w-1/2 ml-20">
                         <img
-                            src="/src/assets/Banner Homepage.jpg"
+                            src="/public/assets/Banner Homepage.jpg"
                             alt=""
                             style={{ width: "96%", height: "auto", marginLeft:"30px"  }}
                         />
@@ -57,16 +57,16 @@ const Homepage = () => {
                 </div>
                 <div className="mx-[150px] mt-[60px] items-center gap-[32px] flex justify-center mb-20">
                     <div className="flex items-center gap-[10px] flex-col w-auto h-fit shadow-xl rounded-md p-[20px] hover:scale-105 hover:shadow-2xl transition-all duration-300 ease-in-out">
-                        <img src="/src/assets/Karier.svg" alt="" className="w-[147px] h-[147px]"/>
+                        <img src="/public/assets/Karier.svg" alt="" className="w-[147px] h-[147px]"/>
                         <h6 className="text-center text-black text-2xl font-semibold font-['Plus Jakarta Sans'] leading-relaxed tracking-tight">Persiapan Karier</h6>
                         <h6 className="text-center line-clamp-4 text-black text-base font-normal font-['Plus Jakarta Sans'] leading-snug">Dapatkan panduan lengkap untuk fresh graduate, mulai dari review CV, peningkatan portfolio, hingga latihan interview.</h6>
                     </div>
                     <div className="flex items-center gap-[10px] flex-col w-auto h-fit shadow-xl rounded-md p-[20px] hover:scale-105 hover:shadow-2xl transition-all duration-300 ease-in-out">
-                        <img src="/src/assets/Interview.svg" alt="" className="w-[147px] h-[147px]"/>
+                        <img src="/public/assets/Interview.svg" alt="" className="w-[147px] h-[147px]"/>
                         <h6 className="text-center text-black text-2xl font-semibold font-['Plus Jakarta Sans'] leading-relaxed tracking-tight">Latihan Interview</h6>
                         <h6 className="text-center line-clamp-4 text-black text-base font-normal font-['Plus Jakarta Sans'] leading-snug">Latihan interview yang dirancang untuk mempersiapkan kamu menghadapi pertanyaan sulit dan tampil percaya diri.</h6>
                     </div><div className="flex items-center gap-[10px] flex-col w-auto h-fit shadow-xl rounded-md p-[20px] hover:scale-105 hover:shadow-2xl transition-all duration-300 ease-in-out">
-                        <img src="/src/assets/Portfolio.svg" alt="" className="w-[147px] h-[147px]"/>
+                        <img src="/public/assets/Portfolio.svg" alt="" className="w-[147px] h-[147px]"/>
                         <h6 className="text-center text-black text-2xl font-semibold font-['Plus Jakarta Sans'] leading-relaxed tracking-tight">Membangun Portfolio</h6>
                         <h6 className="text-center line-clamp-4 text-black text-base font-normal font-['Plus Jakarta Sans'] leading-snug">Bangun portfolio yang menonjolkan keahlianmu, membantu recruiter melihat potensimu sebagai fresh graduate.</h6>
                     </div>
@@ -93,7 +93,7 @@ const Homepage = () => {
                               delay: 0.5,
                             }}
                             >
-                            <img src="/src/assets/RakaPoster.jpg" alt="" className="w-[195px] -mr-[150px]"/>
+                            <img src="/public/assets/RakaPoster.jpg" alt="" className="w-[195px] -mr-[150px]"/>
                             </motion.div>
                             <motion.div
                             className="w-[195px] z-10 -mr-[150px]"
@@ -109,7 +109,7 @@ const Homepage = () => {
                               delay: 0.5,
                             }}
                             >
-                                <img src="/src/assets/TiaraPoster.jpg" alt="" className="w-[195px] z-10 -mr-[150px] "/>
+                                <img src="/public/assets/TiaraPoster.jpg" alt="" className="w-[195px] z-10 -mr-[150px] "/>
                             </motion.div>
                             <motion.div
                             className="w-[195px]"
@@ -129,7 +129,7 @@ const Homepage = () => {
                               delay: 0.5,
                             }}
                             >
-                                <img src="/src/assets/NadiaPoster.jpg" alt="" className="w-[195px]"/>
+                                <img src="/public/assets/NadiaPoster.jpg" alt="" className="w-[195px]"/>
                             </motion.div>
                         </div>
                         <div className="flex flex-col gap-[10px] w-1/2 justify-center items-start">
@@ -163,7 +163,7 @@ const Homepage = () => {
                               delay: 0.5,
                             }}
                             >
-                            <img src="/src/assets/elearning back 1.jpg" alt="" className="w-[195px]"/>
+                            <img src="/public/assets/elearning back 1.jpg" alt="" className="w-[195px]"/>
                             </motion.div>
                             <motion.div
                             className="w-[195px] z-10"
@@ -179,7 +179,7 @@ const Homepage = () => {
                               delay: 0.5,
                             }}
                             >
-                                <img src="/src/assets/elearning front.jpg" alt="" className="w-[195px] z-10 "/>
+                                <img src="/public/assets/elearning front.jpg" alt="" className="w-[195px] z-10 "/>
                             </motion.div>
                             <motion.div
                             className="w-[195px]  -ml-[150px]"
@@ -199,7 +199,7 @@ const Homepage = () => {
                               delay: 0.5,
                             }}
                             >
-                                <img src="/src/assets/elearning back 2.jpg" alt="" className="w-[195px]"/>
+                                <img src="/public/assets/elearning back 2.jpg" alt="" className="w-[195px]"/>
                             </motion.div>
 
                         </div>
@@ -225,7 +225,7 @@ const Homepage = () => {
                               delay: 0.5,
                             }}
                             >
-                            <img src="/src/assets/artikel back1.jpg" alt="" className="w-[195px] -mr-[150px]"/>
+                            <img src="/public/assets/artikel back1.jpg" alt="" className="w-[195px] -mr-[150px]"/>
                             </motion.div>
                             <motion.div
                             className="w-[195px] z-10 -mr-[150px]"
@@ -241,7 +241,7 @@ const Homepage = () => {
                               delay: 0.5,
                             }}
                             >
-                                <img src="/src/assets/artikel front.jpg" alt="" className="w-[195px] z-10 -mr-[150px] "/>
+                                <img src="/public/assets/artikel front.jpg" alt="" className="w-[195px] z-10 -mr-[150px] "/>
                             </motion.div>
                             <motion.div
                             className="w-[195px]"
@@ -261,7 +261,7 @@ const Homepage = () => {
                               delay: 0.5,
                             }}
                             >
-                                <img src="/src/assets/artikel back2.jpg" alt="" className="w-[195px]"/>
+                                <img src="/public/assets/artikel back2.jpg" alt="" className="w-[195px]"/>
                             </motion.div>
 
                         </div>
@@ -297,32 +297,32 @@ export default Homepage;
 const data = [
     {
         Name: "Tiara Dewi",
-        image: "/src/assets/Tiara Dewi.jpg",
+        image: "/public/assets/Tiara Dewi.jpg",
         Profesi: 'CV Consultant',
     },
     {
         Name: "Raka Nugraha",
-        image: "/src/assets/Raka Nugraha.jpg",
+        image: "/public/assets/Raka Nugraha.jpg",
         Profesi: 'Portfolio Advisor',
     },
     {
         Name: "Nadia Kurnia",
-        image: "/src/assets/Nadia Kurnia.jpg",
+        image: "/public/assets/Nadia Kurnia.jpg",
         Profesi: 'HR Specialist',
     },
     {
         Name: "Maya Putri",
-        image: "/src/assets/Maya Putri.jpg",
+        image: "/public/assets/Maya Putri.jpg",
         Profesi: 'Portfolio Advisor',
     },
     {
         Name: "Rian Utama",
-        image: "/src/assets/Rian Utama.jpg",
+        image: "/public/assets/Rian Utama.jpg",
         Profesi: 'HR Consultant',
     },
     {
         Name: "Siska Larasati",
-        image: "/src/assets/Siska Larasati.jpg",
+        image: "/public/assets/Siska Larasati.jpg",
         Profesi: 'CV Consultant',
     },
 ]
