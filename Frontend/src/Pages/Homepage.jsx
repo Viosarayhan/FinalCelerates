@@ -37,10 +37,10 @@ const Homepage = () => {
                             <div className="flex flex-col">
                                 <h6 className="text-black text-base font-bold font-['Plus Jakarta Sans'] leading-[19px]">Dipercaya oleh 100k orang</h6>
                                 <div className="flex items-end">
-                                    <img src="/assets/Star.svg" alt="" className="w-6 h-6 "/>
-                                    <img src="/assets/Star.svg" alt="" className="w-6 h-6 -ml-[5px]"/>
-                                    <img src="/assets/Star.svg" alt="" className="w-6 h-6 -ml-[5px]"/>
-                                    <img src="/assets/Star.svg" alt="" className="w-6 h-6 -ml-[5px]"/>
+                                    <img src="/assets/star.svg" alt="" className="w-6 h-6 "/>
+                                    <img src="/assets/star.svg" alt="" className="w-6 h-6 -ml-[5px]"/>
+                                    <img src="/assets/star.svg" alt="" className="w-6 h-6 -ml-[5px]"/>
+                                    <img src="/assets/star.svg" alt="" className="w-6 h-6 -ml-[5px]"/>
                                     <img src="/assets/star_half.svg" alt="" className="w-6 h-6 -ml-[5px]"/>
                                     <h6 className="text-black text-base font-bold font-['Plus Jakarta Sans'] leading-[19px]">4.5/5 (50k  Ulasan)</h6>
                                 </div>
