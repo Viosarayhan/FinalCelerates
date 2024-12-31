@@ -9,6 +9,7 @@
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     text-align: center;
+    height: 580px;
     font-family: Arial, sans-serif;
   }
 
@@ -28,7 +29,7 @@
   /* Gaya untuk input form */
   .register-container input {
     width: 100%;
-    padding: 10px;
+    padding: 8px;
     margin-bottom: 10px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -55,7 +56,7 @@
   .register-button {
     width: 100%;
     padding: 10px;
-    background-color: #ff7f50;
+    background-color:#fa6c38;
     color: white;
     border: none;
     border-radius: 5px;
@@ -63,7 +64,6 @@
     font-weight: bold;
     cursor: pointer;
     margin-top: 10px;
-    transition: background-color 0.3s ease;
   }
 
   #name,#email{
@@ -75,12 +75,7 @@
   }
 
   .conf{
-    margin-top: 5px ;
-  }
-
-  .register-button:hover {
-    background-color: #ff5722;
-    margin-top: 20px;
+    margin-top: 10px ;
   }
 
   /* Separator untuk daftar dengan */
