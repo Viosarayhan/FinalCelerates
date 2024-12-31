@@ -62,7 +62,7 @@ export default function Navbar({ onSearch }) {
             </li>
             <li >
                 <Link to="/editprofile" >
-                <img src="/public/assetsvivit/account.svg" alt="account" className='w-[30px] h-[30px] '/>
+                <img src="/assetsvivit/account.svg" alt="account" className='w-[30px] h-[30px] '/>
                 </Link>
             </li>
             </ul>
