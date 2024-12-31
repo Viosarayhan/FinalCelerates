@@ -50,15 +50,15 @@ function ContentCard({ title, instructor, videoCount, rating, image }) {
         <h3 className="text-ivory font-semibold text-lg mb-2 line-clamp-2">{title}</h3>
         <div className="flex flex-col gap-1 text-[#FFFFF0] text-sm">
           <span className="flex items-center gap-1">
-            <img src="/public/assetsvivit/person_outline.svg" alt="Instructor" className="w-4 h-4 " />
+            <img src="/assetsvivit/person_outline.svg" alt="Instructor" className="w-4 h-4 " />
             {instructor}
           </span>
           <span className="flex items-center gap-1">
-            <img src="/public/assetsvivit/video_library.svg" alt="Videos" className="w-4 h-4" />
+            <img src="/assetsvivit/video_library.svg" alt="Videos" className="w-4 h-4" />
             {videoCount} Video
           </span>
           <span className="flex items-center gap-1">
-            <img src="/public/assetsvivit/star.svg" alt="Rating" className="w-4 h-4" />
+            <img src="/assetsvivit/star.svg" alt="Rating" className="w-4 h-4" />
             {rating}/5
           </span>
         </div>

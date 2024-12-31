@@ -80,7 +80,7 @@ const EditMentor = ({ updateMentors }) => {
                     <div className="self-stretch justify-start items-center gap-[37px] inline-flex">
                         <img
                             className="w-[146px] h-[146px] rounded-[10px]"
-                            src="/public/assetsvivit/5d9783cb0a04030c4556d7079ddf57af.png"
+                            src="/assetsvivit/5d9783cb0a04030c4556d7079ddf57af.png"
                             alt="Mentor"
                         />
                         <div className="grow shrink basis-0 flex-col justify-center items-start gap-3 inline-flex">

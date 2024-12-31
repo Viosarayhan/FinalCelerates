@@ -20,7 +20,7 @@ export default function QrisPopup({ onClose }) {
         <div className="bg-white p-6 rounded-lg max-w-sm w-full text-center">
           <h2 className="text-2xl font-semibold mb-4">Scan QRIS</h2>
           <img
-            src="/public/assetsvivit/Qris.svg"
+            src="/assetsvivit/Qris.svg"
             alt="QRIS Barcode"
             className="mx-auto mb-4"
           />

@@ -3,7 +3,7 @@ import React from 'react';
 export default function CourseDetails() {
   return (
     <div className="mb-8 ml-[150px]">
-      <img src="/public/assetsvivit/Banner.png" alt="Banner" className="w-full h-auto rounded-2xl mb-6" />
+      <img src="/assetsvivit/Banner.png" alt="Banner" className="w-full h-auto rounded-2xl mb-6" />
       <h1 className="text-4xl font-bold mb-4">Career Excellent Pack</h1>
       <div className="flex justify-between items-center mb-4">
         <p className="text-2xl font-semibold">Rp 50.000</p>

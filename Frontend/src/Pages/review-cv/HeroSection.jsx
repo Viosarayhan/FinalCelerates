@@ -14,7 +14,7 @@ export default function HeroSection() {
         <BatchInfo />
         <SuccessInfo />
       </div>
-      <img src="/public/assetsvivit/illustration.svg" alt="Illustration" className="absolute top-0.5 right-[150px] w-[476px] h-[476px] bottom-[100px]" />
+      <img src="/assetsvivit/illustration.svg" alt="Illustration" className="absolute top-0.5 right-[150px] w-[476px] h-[476px] bottom-[100px]" />
     </div>
   );
 }
@@ -26,13 +26,13 @@ function BatchInfo() {
         Batch 5 dimulai pada:
       </p>
       <div className="flex items-center gap-1">
-        <img src="/public/assetsvivit/calender.svg" alt="Calendar" className="w-6 h-6" />
+        <img src="/assetsvivit/calender.svg" alt="Calendar" className="w-6 h-6" />
         <span className="text-base font-sans text-black">
           30-31 November
         </span>
       </div>
       <button className="bg-[#fb6816] text-[#FFFFF0] text-[7.875px] font-semibold px-[13.5px] py-[5px] rounded-[25px] flex items-center gap-[4.5px] shadow-[4px_-4px_8px_rgba(0,0,0,0.25)_inset] w-[98px] mt-[27px]">
-        <img src="/public/assetsvivit/alarm.svg" alt="Alarm" className="w-[11.3px] h-[11.3px]" />
+        <img src="/assetsvivit/alarm.svg" alt="Alarm" className="w-[11.3px] h-[11.3px]" />
         <span className='font-sans'>Ingatkan saya</span>
       </button>
     </div>
@@ -46,7 +46,7 @@ function SuccessInfo() {
         1000+ CV telah direview dan mendapatkan pekerjaan pertama mereka!
       </p>
       <div className="flex items-center gap-2">
-        <img src="/public/assetsvivit/bintang.svg" alt="Star" className="h-[21.4px]" />
+        <img src="/assetsvivit/bintang.svg" alt="Star" className="h-[21.4px]" />
         <span className="text-base font-sans text-black">4,9/5</span>
       </div>
     </div>

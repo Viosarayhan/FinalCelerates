@@ -18,7 +18,7 @@ const Mentoring = () => {
       <div className="bg-ractangel" />
       <div className="card-course">
         <div className="div-2">
-          <img className="group" src="/public/assets/group 959.png" />
+          <img className="group" src="/assets/group 959.png" />
           <div className="frame">
             <div className="div-wrapper">
               <div className="text-wrapper">JobReady CV</div>
@@ -36,7 +36,7 @@ const Mentoring = () => {
 
         </div>
         <div className="div-2">
-          <img className="group" src="/public/assets/group 1070.png" />
+          <img className="group" src="/assets/group 1070.png" />
           <div className="frame">
             <div className="div-wrapper">
               <div className="text-wrapper">PortoPolish</div>
@@ -128,31 +128,31 @@ const Mentoring = () => {
           </div>
           <div className="frame-11">
             <div className="frame-12">
-              <img className="frame-13" src="/public/assets/Group 1059.png" />
+              <img className="frame-13" src="/assets/Group 1059.png" />
               <div className="frame-14">
                 <p className="text-wrapper-10">10 kali review CV selama 4 bulan</p>
               </div>
             </div>
             <div className="frame-12">
-              <img className="frame-13" src="/public/assets/Group 1059.png" />
+              <img className="frame-13" src="/assets/Group 1059.png" />
               <div className="frame-14">
                 <div className="text-wrapper-10">10 Template CV (Inggris/Indonesia)</div>
               </div>
             </div>
             <div className="frame-12">
-              <img className="frame-13" src="/public/assets/Group 1059.png" />
+              <img className="frame-13" src="/assets/Group 1059.png" />
               <div className="frame-16">
                 <div className="text-wrapper-11">Linkedin Guiedline</div>
               </div>
             </div>
             <div className="frame-12">
-              <img className="frame-13" src="/public/assets/Group 1059.png" />
+              <img className="frame-13" src="/assets/Group 1059.png" />
               <div className="frame-16">
                 <div className="text-wrapper-11">5 kali review portofolio</div>
               </div>
             </div>
             <div className="frame-12">
-              <img className="frame-13" src="/public/assets/Group 1059.png" />
+              <img className="frame-13" src="/assets/Group 1059.png" />
               <div className="frame-16">
                 <div className="text-wrapper-11">5 kali review portofolio</div>
               </div>
@@ -176,25 +176,25 @@ const Mentoring = () => {
           </div>
           <div className="frame-11">
             <div className="frame-12">
-              <img className="frame-13" src="/public/assets/Group 1059.png" />
+              <img className="frame-13" src="/assets/Group 1059.png" />
               <div className="frame-14">
                 <p className="text-wrapper-10">2 kali review CV selama satu bulan</p>
               </div>
             </div>
             <div className="frame-12">
-              <img className="frame-13" src="/public/assets/Group 1059.png" />
+              <img className="frame-13" src="/assets/Group 1059.png" />
               <div className="frame-14">
                 <div className="text-wrapper-10">2 Template CV (Inggris/Indonesia)</div>
               </div>
             </div>
             <div className="frame-12">
-              <img className="frame-13" src="/public/assets/Group 1059.png" />
+              <img className="frame-13" src="/assets/Group 1059.png" />
               <div className="frame-16">
                 <div className="text-wrapper-11">1 kali simulasi interview</div>
               </div>
             </div>
             <div className="frame-12">
-              <img className="frame-13" src="/public/assets/Group 1059.png" />
+              <img className="frame-13" src="/assets/Group 1059.png" />
               <div className="frame-16">
                 <div className="text-wrapper-11">1 kali review portofolio</div>
               </div>
@@ -217,25 +217,25 @@ const Mentoring = () => {
           </div>
           <div className="frame-11">
             <div className="frame-12">
-              <img className="frame-13" src="/public/assets/Group 1059.png" />
+              <img className="frame-13" src="/assets/Group 1059.png" />
               <div className="frame-14">
                 <p className="text-wrapper-10">4 kali review CV selama 2 bulan</p>
               </div>
             </div>
             <div className="frame-12">
-              <img className="frame-13" src="/public/assets/Group 1059.png" />
+              <img className="frame-13" src="/assets/Group 1059.png" />
               <div className="frame-14">
                 <div className="text-wrapper-10">4 Template CV (Inggris/Indonesia)</div>
               </div>
             </div>
             <div className="frame-12">
-              <img className="frame-13" src="/public/assets/Group 1059.png" />
+              <img className="frame-13" src="/assets/Group 1059.png" />
               <div className="frame-16">
                 <div className="text-wrapper-11">4 kali simulasi interview</div>
               </div>
             </div>
             <div className="frame-12">
-              <img className="frame-13" src="/public/assets/Group 1059.png" />
+              <img className="frame-13" src="/assets/Group 1059.png" />
               <div className="frame-16">
                 <div className="text-wrapper-11">4 kali review portofolio</div>
               </div>

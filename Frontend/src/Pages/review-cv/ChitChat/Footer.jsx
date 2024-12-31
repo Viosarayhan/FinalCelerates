@@ -3,11 +3,11 @@ import React from 'react';
 export default function Footer() {
   return (
     <footer className="bg-[#fb6816] py-4 px-4 lg:px-32 flex items-center justify-between">
-      <img src="/public/assetsvivit/logo-footer.png" alt="Brand" className="h-11 w-auto" />
+      <img src="/assetsvivit/logo-footer.png" alt="Brand" className="h-11 w-auto" />
       <div className="flex gap-8">
-        <FooterItem icon="/public/assetsvivit/kontak.png"/>
-        <FooterItem icon="/public/assetsvivit/tentang kami.png"/>
-        <FooterItem icon="/public/assetsvivit/bantuan.png" />
+        <FooterItem icon="/assetsvivit/kontak.png"/>
+        <FooterItem icon="/assetsvivit/tentang kami.png"/>
+        <FooterItem icon="/assetsvivit/bantuan.png" />
       </div>
     </footer>
   );

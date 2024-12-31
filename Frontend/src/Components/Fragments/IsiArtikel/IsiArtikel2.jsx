@@ -1,7 +1,7 @@
 const IsiArtikel2 = () =>{
     return (
         <div>
-        <img className=" object-cover mt-[62px] w-full h-[300px]" src="/src/assets/artikelbacabanner2.png" />
+        <img className=" object-cover mt-[62px] w-full h-[300px]" src="/assets/artikelbacabanner2.png" />
         <div className="w-[750px] ml-[150px] mt-[20px] mb-[20px]">
         <h1 className="w-[750px] text-black text-[32px] font-semibold font-sans leading-[38.40px]">Data Analyst: Peran Penting dan Skill Wajib dalam Pengambilan Keputusan</h1>
    <div className="mt-[35px] mb-[20px]">

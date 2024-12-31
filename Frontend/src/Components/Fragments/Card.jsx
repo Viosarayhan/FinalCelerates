@@ -2,8 +2,8 @@ import Card from "../Elements/Product"
 const Card1 = (props) => {
     return (
         <div>
-            <Card 
-                Img="/src/assets/Nike air force 1.jpg"
+            <Card
+                Img="/assets/Nike air force 1.jpg"
                 Alt="Nike air force 1"
                 Namaproduct="Air force 1 '70 "
                 Category="men's shoses"

@@ -6,7 +6,7 @@ export default function getAllArtikel() {
       slug: 'Mengenal_Profesi_UI_UX_Designer_Tugas_Skill_dan_karir',
       Judul: "Mengenal Profesi UI/UX Designer: Tugas, Skill, dan Karir",
       Categori: `Design`,
-      Img: '/src/assets/Artikel 1.png',
+      Img: '/assets/Artikel 1.png',
       description: `Di era digital saat ini, tampilan dan pengalaman pengguna menjadi salah satu faktor utama kesuksesan sebuah produk digital, baik itu aplikasi, website, maupun software lainnya.`,
       isi:
       `UI/UX Designer adalah profesional yang bertanggung jawab untuk merancang antarmuka (User Interface/UI) yang menarik secara visual dan memberikan pengalaman pengguna (User Experience/UX) yang mudah, intuitif, dan menyenangkan. Peran ini menggabungkan dua aspek penting: UI, yang berfokus pada tampilan visual seperti tata letak, warna, dan ikon, serta UX, yang memastikan navigasi dan interaksi pengguna terasa alami dan memuaskan.
@@ -25,7 +25,7 @@ export default function getAllArtikel() {
       slug: 'Data_Analyst_Peran_Penting_dan_Skill_Wajib_dalam_Pengambilan_Keputusan',
       Judul: "Data Analyst: Peran Penting dan Skill Wajib dalam Pengambilan Keputusan",
       Categori: `Data`,
-      Img: '/src/assets/Artikel 2.png',
+      Img: '/assets/Artikel 2.png',
       description: `Profesi Data Analyst memiliki peran penting dalam membantu perusahaan membuat keputusan berdasarkan data yang akurat.`,
       isi: `Data Analyst bertanggung jawab untuk menganalisis data yang tersedia untuk memberikan wawasan yang dapat membantu perusahaan membuat keputusan yang lebih baik. Mereka menggunakan berbagai alat statistik dan perangkat lunak analisis data untuk mengumpulkan, mengolah, dan memvisualisasikan data yang akan digunakan dalam proses pengambilan keputusan.
 
@@ -41,7 +41,7 @@ Selain itu, kemampuan untuk mengkomunikasikan hasil analisis dengan jelas kepada
       slug: 'Digital_Marketing_Specialist_Memahami_Tugas_Skill_dan_Prospek_di_Era_Digital',
       Judul: "Digital Marketing Specialist: Memahami Tugas, Skill, dan Prospek di Era Digital",
       Categori: `Industrial`,
-      Img: '/src/assets/Artikel 3.png',
+      Img: '/assets/Artikel 3.png',
       description: `Salah satu peran yang semakin penting dalam upaya bisnis untuk menjangkau pelanggan secara digital adalah Digital Marketing Specialist.`,
       isi: `Digital Marketing Specialist berfokus pada pembuatan dan pelaksanaan strategi pemasaran digital untuk meningkatkan visibilitas merek, produk, dan layanan di platform online. Mereka menggunakan berbagai saluran digital, termasuk media sosial, mesin pencari, dan iklan online, untuk mencapai audiens yang lebih luas dan meningkatkan keterlibatan pelanggan.
 
@@ -62,7 +62,7 @@ Keterampilan yang dibutuhkan untuk menjadi Digital Marketing Specialist termasuk
       slug: 'Data_Scientist_Profesi_dengan_Prospek_Tinggi_di_Era_Big_Data',
       Judul: "Data Scientist: Profesi dengan Prospek Tinggi di Era Big Data",
       Categori: `Engineer`,
-      Img: '/src/assets/Artikel 4.png',
+      Img: '/assets/Artikel 4.png',
       description: `Di era digital saat ini, tampilan dan pengalaman pengguna menjadi salah satu faktor utama kesuksesan sebuah produk digital, baik itu aplikasi, website, maupun software lainnya.`,
       isi: `Data Scientist adalah profesional yang menggabungkan keahlian dalam ilmu komputer, matematika, dan statistik untuk menganalisis dan menginterpretasikan data yang sangat besar dan kompleks. Mereka bekerja dengan data dalam jumlah besar (Big Data) untuk menemukan wawasan yang dapat membantu perusahaan membuat keputusan yang lebih baik dan lebih cepat.
 
@@ -101,7 +101,7 @@ Keterampilan yang dibutuhkan untuk menjadi Digital Marketing Specialist termasuk
       slug: 'The_Future_of_Quantum_Computing_How_It_Will_Change_The_World',
       Judul: "The Future of Quantum Computing: How It Will Change The World",
       Categori: `Science`,
-      Img: '/src/assets/articlescience.jpg',
+      Img: '/assets/articlescience.jpg',
       description: `Quantum computing is an emerging field with the potential to revolutionize industries like healthcare, finance, and technology.`,
       isi: `Quantum computing is a rapidly evolving field that harnesses the principles of quantum mechanics to process information in ways that classical computers cannot. Unlike traditional binary computing, which uses bits to represent either a 0 or a 1, quantum computers use quantum bits, or qubits, that can exist in multiple states at once, thanks to a phenomenon called superposition.
 

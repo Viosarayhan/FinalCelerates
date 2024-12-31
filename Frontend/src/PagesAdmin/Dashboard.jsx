@@ -39,7 +39,7 @@ const Dashboard = () => {
                                 <div className="self-stretch text-black text-2xl font-semibold font-['Plus Jakarta Sans'] leading-relaxed tracking-tight">E-Learning</div>
                                 <div className="w-[274px] h-[274px] shadow justify-center items-center inline-flex">
                                     <div className="w-[274px] h-[274px] relative">
-                                        <img className=" absolute" src="/src/assets/diagramelearning.svg" />
+                                        <img className=" absolute" src="/assets/diagramelearning.svg" />
                                     </div>
                                 </div>
                                 <div className="self-stretch justify-between items-center inline-flex">
@@ -67,7 +67,7 @@ const Dashboard = () => {
                                 <div className="self-stretch text-black text-2xl font-semibold font-['Plus Jakarta Sans'] leading-relaxed tracking-tight">Mentoring</div>
                                 <div className="w-[274px] h-[274px] shadow justify-center items-center inline-flex">
                                     <div className="w-[274px] h-[274px] relative">
-                                        <img className="wabsolute" src="/src/assets/diagrammentoring.svg" />
+                                        <img className="wabsolute" src="/assets/diagrammentoring.svg" />
                                     </div>
                                 </div>
                                 <div className="self-stretch justify-between items-center inline-flex">

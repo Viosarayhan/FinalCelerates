@@ -34,7 +34,7 @@ const Login = () => {
       localStorage.setItem("authToken", token);
 
       alert("Login berhasil!");
-      navigate("/homepage"); // Arahkan pengguna ke homepage setelah login berhasil
+      navigate("/"); // Arahkan pengguna ke homepage setelah login berhasil
     } catch (err) {
       console.error(err.response?.data || err.message);
       alert(err.response?.data.error || "Login failed, please try again");

@@ -47,14 +47,14 @@ const DetailArtikel = () => {
       <Navbar />
       <div className="absolute ml-[950px] top-[400px] w-[362px]">
         <div className="bg-[#fffff0] rounded-[10px] shadow p-2 flex items-center gap-2">
-          <img src="/src/assets/menu.svg" alt="menu" className="w-10 h-10" />
+          <img src="/assets/menu.svg" alt="menu" className="w-10 h-10" />
           <input
             type="text"
             name="search"
             placeholder="Search..."
             className="flex-grow text-sm font-bold leading-5 text-[#49454f] bg-[#fffff0]"
           />
-          <img src="/src/assets/search.svg" alt="search" className="w-8 h-8" />
+          <img src="/assets/search.svg" alt="search" className="w-8 h-8" />
         </div>
         <div className="mt-5">
           <ArtikelSampingList artikels={artikels} />

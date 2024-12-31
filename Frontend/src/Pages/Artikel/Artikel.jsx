@@ -62,12 +62,12 @@ const Artikel = () =>{
     return (
         <div>
             <Navbar />
-            <img src="/src/assets/artikelbanner.png" alt="" className="w-full h-[300px] object-cover mt-[62px]" />
+            <img src="/assets/artikelbanner.png" alt="" className="w-full h-[300px] object-cover mt-[62px]" />
             <div className='flex justify-center items-center bg-[#fffff0]'>
                 <div className='w-full px-[150px] absolute top-[340px]'>
                 <div className="grow shrink basis-0 shadow-xl rounded-full self-stretch p-1 justify-start bg-[#f9f9f9] items-center flex">
               <div className='items-center rounded-tl-full rounded-bl-full pl-[10px] p-1 bg-[#f9f9f9] flex'>
-              <img src="/src/assets/menu.svg" className="w-10 h-10 flex-col bg-[#f9f9f9] justify-center items-center gap-2.5 inline-flex"/>
+              <img src="/assets/menu.svg" className="w-10 h-10 flex-col bg-[#f9f9f9] justify-center items-center gap-2.5 inline-flex"/>
               </div>
               <div className="grow shrink basis-0 self-stretch bg-[#f9f9f9] justify-start items-center gap-2.5 flex">
                   <input
@@ -81,7 +81,7 @@ const Artikel = () =>{
 
               </div>
               <div className="justify-end items-center rounded-tr-full pr-[10px] rounded-br-full p-2 bg-[#f9f9f9] flex">
-                  <img src="/src/assets/search.svg" className="w-8 h-8  flex-col bg-[#f9f9f9] justify-center items-center gap-2.5 inline-flex"/>
+                  <img src="/assets/search.svg" className="w-8 h-8  flex-col bg-[#f9f9f9] justify-center items-center gap-2.5 inline-flex"/>
               </div>
           </div>
                 </div>
@@ -97,7 +97,7 @@ const Artikel = () =>{
             <ArtikelList artikels={filteredArtikels} />
      </div>
                     <div className=" absolute top-[535px] right-[150px] w-[489px] h-[420.37px] px-7 py-[30px] bg-[#a49af6] rounded-[10px] shadow flex-col justify-start items-center gap-[47px] inline-flex">
-                    <img src='/src/assets/cardungu.svg' className="w-[201.80px] h-[153.37px] relative"/>
+                    <img src='/assets/cardungu.svg' className="w-[201.80px] h-[153.37px] relative"/>
                     <div className="self-stretch h-40 flex-col justify-start items-center gap-[17px] flex">
                         <div className="self-stretch h-[108px] flex-col justify-start items-center gap-5 flex">
                             <h1 className="self-stretch text-center text-black text-xl font-semibold font-['Plus Jakarta Sans'] leading-snug tracking-tight">Apa itu program JobReady CV?</h1>

@@ -34,17 +34,17 @@ const Riwayat = () => {
             <div className="mt-[20px] grid md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-[32px]">
                 {/* <HistoryList  Historys={historys} />  */}
                 <div className="max-w-[256px] max-h-[244px] bg-[#4c37ee] pb-[20px] flex flex-col rounded-md">
-                    <img src="/src/assets/History1.jpg" alt="" className="w-[256px] h-[144px] rounded-tl-md rounded-tr-md object-cover" />
+                    <img src="/assets/History1.jpg" alt="" className="w-[256px] h-[144px] rounded-tl-md rounded-tr-md object-cover" />
                     <h1 className="text-[18px] line-clamp-2 text-[#fffff0] flex-wrap mx-[20px] mt-[8px]">Menyesuaikan CV dengan pekerjaan</h1>
                     <h6 className="text-[14px] truncate text-[#23ffca] font-bold mx-[20px]">Menulis CV yang Menarik</h6>
                 </div>
                 <div className="max-w-[256px] max-h-[244px] bg-[#4c37ee] pb-[20px] flex flex-col rounded-md">
-                    <img src="/src/assets/History2.jpg" alt="" className="w-[256px] h-[144px] rounded-tl-md rounded-tr-md object-cover" />
+                    <img src="/assets/History2.jpg" alt="" className="w-[256px] h-[144px] rounded-tl-md rounded-tr-md object-cover" />
                     <h1 className="text-[18px] line-clamp-2 text-[#fffff0] flex-wrap mx-[20px] mt-[8px]">Cara menonjolkan pengalaman dan keahlian</h1>
                     <h6 className="text-[14px] truncate text-[#23ffca] font-bold mx-[20px]">Menulis CV yang Menarik</h6>
                 </div>
                 <div className="max-w-[256px] max-h-[244px] bg-[#4c37ee] pb-[20px] flex flex-col rounded-md">
-                    <img src="/src/assets/History3.jpg" alt="" className="w-[256px] h-[144px] rounded-tl-md rounded-tr-md object-cover" />
+                    <img src="/assets/History3.jpg" alt="" className="w-[256px] h-[144px] rounded-tl-md rounded-tr-md object-cover" />
                     <h1 className="text-[18px] line-clamp-2 text-[#fffff0] flex-wrap mx-[20px] mt-[8px]">Apa itu CV dan kenapa penting?</h1>
                     <h6 className="text-[14px] truncate text-[#23ffca] font-bold mx-[20px]">Menulis CV yang Menarik</h6>
                 </div>

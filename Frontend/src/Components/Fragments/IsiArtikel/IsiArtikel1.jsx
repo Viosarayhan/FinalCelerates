@@ -1,7 +1,7 @@
 const IsiArtikel1 = () => {
     return (
         <div>
-             <img className=" mt-[62px] w-full h-[300px]" src="/src/assets/artikelbacabanner1.png" />
+             <img className=" mt-[62px] w-full h-[300px]" src="/assets/artikelbacabanner1.png" />
              <div className="w-[750px] ml-[150px] mt-[20px] mb-[20px]">
              <h1 className="w-[750px] text-black text-[32px] font-semibold font-sans leading-[38.40px]">Mengenal Profesi UI/UX Designer: Tugas, Skill, dan Karir</h1>
         <div className="mt-[35px] mb-[20px]">
@@ -20,7 +20,7 @@ const IsiArtikel1 = () => {
                 <br/>
                 <br/>Sebagai peran yang vital dalam pengembangan produk digital, UI/UX Designer memiliki peran penting dalam memastikan pengalaman pengguna yang memuaskan dan meningkatkan kesuksesan produk di pasaran.</span></div>
              </div>
-   
+
         </div>
     )
 }
