@@ -30,9 +30,9 @@ const Homepage = () => {
                         <div className="flex gap-[8px]">
                             <div className="flex ">
                                 <img src="/assets/user1.png" alt="" className="w-[41px] h-[41px] rounded-full z-1 border-2 boredr-[#fffff0]"/>
-                                <img src="/assets/user2.png" alt="" className="w-[41px] h-[41px] -ml-[12px] rounded-full z-2 border-2 boredr-[#fffff0]"/>
-                                <img src="/assets/user3.png" alt="" className="w-[41px] h-[41px] -ml-[12px] rounded-full z-3 border-2 boredr-[#fffff0]"/>
-                                <img src="/assets/user4.png" alt="" className="w-[41px] h-[41px] -ml-[12px] rounded-full z-4 border-2 boredr-[#fffff0]"/>
+                                <img src="/assets/User2.png" alt="" className="w-[41px] h-[41px] -ml-[12px] rounded-full z-2 border-2 boredr-[#fffff0]"/>
+                                <img src="/assets/User3.png" alt="" className="w-[41px] h-[41px] -ml-[12px] rounded-full z-3 border-2 boredr-[#fffff0]"/>
+                                <img src="/assets/User4.png" alt="" className="w-[41px] h-[41px] -ml-[12px] rounded-full z-4 border-2 boredr-[#fffff0]"/>
                             </div>
                             <div className="flex flex-col">
                                 <h6 className="text-black text-base font-bold font-['Plus Jakarta Sans'] leading-[19px]">Dipercaya oleh 100k orang</h6>
